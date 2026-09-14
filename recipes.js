@@ -61,5 +61,35 @@ window.RECIPES = [
     ],
     warning: "蘿蔔絲一定要擠乾，不然餅會散開",
     notes: "不放豆腐也可以，口感會比較 Q；放豆腐比較軟嫩。"
+    },
+  {
+    id: "tomato-bacon-pasta-tm",
+    name: "番茄培根義大利麵（美善品一鍋到底）",
+    baseServings: 4,
+    ingredients: [
+      { name: "洋蔥（切四塊）", amount: 1, unit: "顆", scale: true },
+      { name: "蒜頭", amount: 3, unit: "瓣", scale: true },
+      { name: "橄欖油", amount: 30, unit: "g", scale: true },
+      { name: "培根（切 2 公分寬）", amount: 100, unit: "g", scale: true },
+      { name: "番茄糊 tomato paste", amount: 30, unit: "g", scale: true },
+      { name: "整粒番茄罐頭（連汁）", amount: 400, unit: "g", scale: true },
+      { name: "水", amount: 500, unit: "g", scale: true },
+      { name: "鹽", amount: 1, unit: "小匙", scale: true },
+      { name: "糖", amount: 1, unit: "小匙", scale: true },
+      { name: "義大利麵（折半）", amount: 300, unit: "g", scale: true },
+      { name: "帕瑪森起司", amount: 50, unit: "g", scale: true },
+      { name: "羅勒或九層塔", amount: 1, unit: "把", scale: false }
+    ],
+    steps: [
+      "洋蔥和蒜頭放入主鍋，速度 5 / 5 秒。停下來，用刮刀把黏在鍋壁的材料刮下來。",
+      "加入橄欖油和培根。Varoma 溫度 / 逆向轉動 / 湯匙速度 / 5 分鐘。量杯拿掉，改放配量籃。",
+      "加入番茄糊，100°C / 逆向轉動 / 湯匙速度 / 2 分鐘。這步不要省，酸味會不見。",
+      "加入番茄罐頭、水、鹽、糖。先不要開機。",
+      "義大利麵折半，攤平放進去，用刮刀壓到完全泡在液體裡。沒泡到的那段會是生的。",
+      "100°C / 逆向轉動 / 湯匙速度 / 包裝標示時間 + 3 分鐘（約 13 分鐘）。量杯斜放。",
+      "倒進大盤子，撒帕瑪森起司和羅勒，拌一拌。靜置 2 分鐘讓醬汁收稠。"
+    ],
+    warning: "煮麵時一定要按「逆向轉動」配湯匙速度，忘記按刀片會把麵絞成糊。量杯不要正蓋，要斜放或改用配量籃，100°C 液體會噴出來燙傷。",
+    notes: "液體是麵重量的 3 倍，這個比例不要改。海鮮版蝦子最後 3 分鐘再放。素食版培根換成 150g 蘑菇。"
   }
 ];
