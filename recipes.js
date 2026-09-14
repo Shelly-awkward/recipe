@@ -35,5 +35,31 @@ window.RECIPES = [
     ],
     warning: "醬汁全程不開火，明太子受熱會變硬發腥",
     notes: "沒有鮮奶油可以用煮麵水代替，一次加一匙調整濃稠度。"
+    },
+  {
+    id: "radish-pancake",
+    name: "蘿蔔絲煎餅",
+    baseServings: 2,
+    ingredients: [
+      { name: "白蘿蔔（刨絲）", amount: 300, unit: "g", scale: true },
+      { name: "鹽（醃蘿蔔用）", amount: 0.5, unit: "小匙", scale: false },
+      { name: "板豆腐（壓碎）", amount: 150, unit: "g", scale: true },
+      { name: "在來米粉", amount: 80, unit: "g", scale: true },
+      { name: "水", amount: 50, unit: "ml", scale: true },
+      { name: "蝦米（泡軟切碎）", amount: 1, unit: "大匙", scale: true },
+      { name: "油蔥酥", amount: 1, unit: "大匙", scale: true },
+      { name: "蔥花", amount: 2, unit: "大匙", scale: true },
+      { name: "白胡椒、鹽", amount: 1, unit: "少許", scale: false },
+      { name: "油（煎餅用）", amount: 1, unit: "適量", scale: false }
+    ],
+    steps: [
+      "蘿蔔絲加鹽抓勻，放 10 分鐘，用力擠乾水分。",
+      "蘿蔔絲、豆腐、蝦米、油蔥酥、蔥花拌在一起，加白胡椒和少許鹽調味。",
+      "加在來米粉和水，拌成可以捏成團的稠度。太乾就加一點水。",
+      "平底鍋中小火下油，一次舀一勺壓平，一面煎 3 到 4 分鐘。",
+      "翻面再煎到兩面金黃即可。"
+    ],
+    warning: "蘿蔔絲一定要擠乾，不然餅會散開",
+    notes: "不放豆腐也可以，口感會比較 Q；放豆腐比較軟嫩。"
   }
 ];
