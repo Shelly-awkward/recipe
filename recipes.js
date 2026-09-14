@@ -91,5 +91,34 @@ window.RECIPES = [
     ],
     warning: "煮麵時一定要按「逆向轉動」配湯匙速度，忘記按刀片會把麵絞成糊。量杯不要正蓋，要斜放或改用配量籃，100°C 液體會噴出來燙傷。",
     notes: "液體是麵重量的 3 倍，這個比例不要改。海鮮版蝦子最後 3 分鐘再放。素食版培根換成 150g 蘑菇。"
+    },
+  {
+    id: "microwave-yakiniku",
+    name: "微波盒燒肉（BS607 蒸氣微波）",
+    baseServings: 2,
+    ingredients: [
+      { name: "燒肉用豬五花薄片", amount: 300, unit: "g", scale: true },
+      { name: "洋蔥（切絲）", amount: 0.5, unit: "顆", scale: true },
+      { name: "醬油", amount: 2, unit: "大匙", scale: true },
+      { name: "味醂", amount: 2, unit: "大匙", scale: true },
+      { name: "米酒", amount: 1, unit: "大匙", scale: true },
+      { name: "蒜泥", amount: 1, unit: "小匙", scale: true },
+      { name: "薑泥", amount: 1, unit: "小匙", scale: true },
+      { name: "芝麻油", amount: 1, unit: "小匙", scale: true },
+      { name: "黑胡椒", amount: 1, unit: "少許", scale: false },
+      { name: "蔥花、白芝麻（裝飾用）", amount: 1, unit: "適量", scale: false }
+    ],
+    steps: [
+      "醬油、味醂、米酒、蒜泥、薑泥、芝麻油拌勻成醃汁。",
+      "洋蔥絲鋪在微波盒底部。",
+      "肉片攤開鋪在洋蔥上，不要疊太厚，倒入醃汁拌一下。",
+      "蓋上盒蓋，蒸氣孔打開，或蓋子留一點縫。",
+      "用蒸氣微波模式（不是純微波），中火力先加熱 4 分鐘。",
+      "打開拌一次，讓沒熟的部分翻到下面。",
+      "再蒸微波 2 到 3 分鐘，到肉全熟沒有粉紅色。",
+      "撒黑胡椒、蔥花、白芝麻。"
+    ],
+    warning: "蒸氣孔一定要打開，全密封的盒子微波會有壓力風險",
+    notes: "肉片盡量薄、鋪平不要疊太厚，才能均勻加熱。不同機型火力不同，時間僅供參考，第一次做建議中途多開蓋確認熟度。"
   }
 ];
