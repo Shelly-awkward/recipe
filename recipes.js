@@ -143,29 +143,31 @@ window.RECIPES = [
     notes: "想加料可以在放奶油那一步一起加起司絲或培根丁，烤的時候一起融化。"
     },
   {
-    id: "shanghai-rice",
+    id: "shanghai-vegetable-rice",
     name: "上海菜飯",
     baseServings: 4,
-    warning: "青江菜一定要先炒過、去掉生菜水分，直接跟生米一起煮，飯會出水變濕黏",
+    warning: "菜和飯要分開處理。青江菜不要跟米一起放進電鍋煮，煮 40 分鐘葉子會變黃爛掉，飯也會糊。一定是飯煮好之後才把炒好的菜拌進去。",
     ingredients: [
-      { name: "白米", amount: 400, unit: "g", scale: true },
-      { name: "水（煮飯用）", amount: 480, unit: "ml", scale: true },
-      { name: "鹹肉丁（或培根丁）", amount: 100, unit: "g", scale: true },
-      { name: "青江菜（切碎）", amount: 300, unit: "g", scale: true },
-      { name: "蔥（切末）", amount: 2, unit: "根", scale: true },
-      { name: "薑末", amount: 1, unit: "小匙", scale: true },
-      { name: "食用油", amount: 2, unit: "大匙", scale: true },
-      { name: "鹽", amount: 1, unit: "小匙", scale: true }
+      { name: "白米（電子鍋量杯）", amount: 2, unit: "杯", scale: true },
+      { name: "青江菜（約 4 株）", amount: 300, unit: "g", scale: true },
+      { name: "生五花肉（切小丁）", amount: 100, unit: "g", scale: true },
+      { name: "鹽（醃五花肉用）", amount: 0.5, unit: "小匙", scale: true },
+      { name: "米酒（醃五花肉用）", amount: 1, unit: "小匙", scale: true },
+      { name: "蒜頭（切片）", amount: 2, unit: "瓣", scale: true },
+      { name: "鹽（炒菜用）", amount: 0.5, unit: "小匙", scale: true },
+      { name: "白胡椒", amount: 1, unit: "撮", scale: false },
+      { name: "麻油（最後拌）", amount: 1, unit: "小匙", scale: false }
     ],
     steps: [
-      "白米洗淨，瀝乾備用。",
-      "鹹肉丁下鍋，小火煸炒到出油、邊緣微焦，盛起備用。",
-      "用煸出的油爆香蔥末和薑末。",
-      "加入青江菜碎快速拌炒到微軟，加鹽調味，這一步能去掉生菜水分。",
-      "把炒好的青江菜、鹹肉和白米拌勻。",
-      "全部倒入電鍋內鍋，加水，按照平常煮飯的方式煮熟。",
-      "飯煮好後燜 5 分鐘，打開鍋蓋拌鬆就完成。"
+      "白米洗好，加平常的水量，不用減水。按下去煮。",
+      "五花肉切小丁，拌入鹽和米酒，放 20 分鐘。這段時間拿來切菜。",
+      "青江菜洗乾淨，菜梗和菜葉分開，都切成小丁。切完用廚房紙巾壓乾。",
+      "不加油，五花肉直接下鍋小火煸 6 到 8 分鐘。煸到出油、邊緣金黃。不要用大火，外面焦了裡面還是生的。",
+      "轉中火，下蒜片炒香，再下菜梗炒 1 分鐘。",
+      "下菜葉，大火快炒 30 秒，葉子剛軟就關火。加鹽和白胡椒。炒過頭會發黃發苦。",
+      "飯煮好後掀蓋撥鬆，把炒好的菜和肉連油一起倒進內鍋。用飯匙切拌，不要壓。",
+      "淋麻油，蓋回鍋蓋悶 5 分鐘。這步讓香氣進到米裡，不要省。"
     ],
-    notes: "喜歡臘腸味可以把鹹肉換成臘腸片，煮飯時鋪在最上面一起蒸熟再拌開。"
+    notes: "傳統做法有生米和菜一起煮的版本，但那是瓦斯爐控火，電鍋做很容易失敗。分開做幾乎不會出錯。有鹹肉或臘肉更香，用鹹肉就不用另外醃，炒菜的鹽也要減半。菜梗和菜葉一定要分開下鍋，梗厚葉薄，同時下必有一邊不對。"
   }
 ];
