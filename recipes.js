@@ -141,5 +141,31 @@ window.RECIPES = [
     ],
     warning: "先蒸再烤才會外脆內軟，直接烤會外焦內硬",
     notes: "想加料可以在放奶油那一步一起加起司絲或培根丁，烤的時候一起融化。"
+    },
+  {
+    id: "shanghai-rice",
+    name: "上海菜飯",
+    baseServings: 4,
+    warning: "青江菜一定要先炒過、去掉生菜水分，直接跟生米一起煮，飯會出水變濕黏",
+    ingredients: [
+      { name: "白米", amount: 400, unit: "g", scale: true },
+      { name: "水（煮飯用）", amount: 480, unit: "ml", scale: true },
+      { name: "鹹肉丁（或培根丁）", amount: 100, unit: "g", scale: true },
+      { name: "青江菜（切碎）", amount: 300, unit: "g", scale: true },
+      { name: "蔥（切末）", amount: 2, unit: "根", scale: true },
+      { name: "薑末", amount: 1, unit: "小匙", scale: true },
+      { name: "食用油", amount: 2, unit: "大匙", scale: true },
+      { name: "鹽", amount: 1, unit: "小匙", scale: true }
+    ],
+    steps: [
+      "白米洗淨，瀝乾備用。",
+      "鹹肉丁下鍋，小火煸炒到出油、邊緣微焦，盛起備用。",
+      "用煸出的油爆香蔥末和薑末。",
+      "加入青江菜碎快速拌炒到微軟，加鹽調味，這一步能去掉生菜水分。",
+      "把炒好的青江菜、鹹肉和白米拌勻。",
+      "全部倒入電鍋內鍋，加水，按照平常煮飯的方式煮熟。",
+      "飯煮好後燜 5 分鐘，打開鍋蓋拌鬆就完成。"
+    ],
+    notes: "喜歡臘腸味可以把鹹肉換成臘腸片，煮飯時鋪在最上面一起蒸熟再拌開。"
   }
 ];
