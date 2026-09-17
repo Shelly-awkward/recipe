@@ -169,5 +169,40 @@ window.RECIPES = [
       "淋麻油，蓋回鍋蓋悶 5 分鐘。這步讓香氣進到米裡，不要省。"
     ],
     notes: "傳統做法有生米和菜一起煮的版本，但那是瓦斯爐控火，電鍋做很容易失敗。分開做幾乎不會出錯。有鹹肉或臘肉更香，用鹹肉就不用另外醃，炒菜的鹽也要減半。菜梗和菜葉一定要分開下鍋，梗厚葉薄，同時下必有一邊不對。"
+  },
+  {
+    id: "dry-curry-tm",
+    name: "日式乾咖哩（美善品一鍋到底）",
+    baseServings: 4,
+    warning: "從下絞肉那一步開始，全程都要按「逆向轉動」搭配湯匙速度。忘記按，刀片會把絞肉打成肉泥，救不回來。收汁時量杯不要正蓋，要拿掉改放配量籃，不然 100°C 的醬會噴出來燙傷。",
+    ingredients: [
+      { name: "洋蔥（切四塊）", amount: 1, unit: "顆", scale: true },
+      { name: "紅蘿蔔（切大塊）", amount: 80, unit: "g", scale: true },
+      { name: "蒜頭", amount: 2, unit: "瓣", scale: true },
+      { name: "薑（切片）", amount: 10, unit: "g", scale: true },
+      { name: "油", amount: 30, unit: "g", scale: true },
+      { name: "豬絞肉（粗絞）", amount: 400, unit: "g", scale: true },
+      { name: "咖哩粉", amount: 2, unit: "大匙", scale: true },
+      { name: "番茄糊 tomato paste", amount: 30, unit: "g", scale: true },
+      { name: "日式咖哩塊（剝碎）", amount: 40, unit: "g", scale: true },
+      { name: "醬油", amount: 1, unit: "大匙", scale: true },
+      { name: "味醂", amount: 1, unit: "大匙", scale: true },
+      { name: "伍斯特醬或中濃醬", amount: 1, unit: "大匙", scale: true },
+      { name: "水", amount: 100, unit: "g", scale: true },
+      { name: "冷凍青豆", amount: 60, unit: "g", scale: true },
+      { name: "鹽、黑胡椒", amount: 1, unit: "少許", scale: false },
+      { name: "白飯、溫泉蛋（配著吃）", amount: 1, unit: "適量", scale: false }
+    ],
+    steps: [
+      "洋蔥、紅蘿蔔、蒜頭、薑放進主鍋，速度 5 / 5 秒。停下來，用刮刀把鍋壁的材料刮回鍋底。",
+      "加油。Varoma 溫度 / 湯匙速度 / 5 分鐘。量杯拿掉，改放配量籃，讓洋蔥的水氣跑掉。",
+      "加咖哩粉和番茄糊。100°C / 逆向轉動 / 湯匙速度 / 2 分鐘。這步不要省，咖哩粉沒炒過會有生粉味。",
+      "絞肉剝散丟進去，用刮刀撥開不要黏成一團。Varoma 溫度 / 逆向轉動 / 湯匙速度 / 8 分鐘，量杯拿掉改放配量籃。",
+      "加水、咖哩塊、醬油、味醂、伍斯特醬。100°C / 逆向轉動 / 湯匙速度 / 10 分鐘，一樣放配量籃。",
+      "加冷凍青豆。100°C / 逆向轉動 / 湯匙速度 / 2 分鐘。",
+      "試味道，不夠鹹加鹽和黑胡椒。還太濕就再 Varoma 溫度 / 逆向轉動 / 湯匙速度 / 3 分鐘收汁。",
+      "盛飯，鋪上乾咖哩，想要的話打一顆溫泉蛋在上面。"
+    ],
+    notes: "絞肉一定要買粗絞，細絞在主鍋裡轉幾分鐘就變肉泥了。咖哩塊本身很鹹，第 7 步之前都不要先加鹽。喜歡更乾就多收 3 到 5 分鐘，喜歡濕潤一點就水加到 150g。想加青椒或甜椒，切丁後在第 6 步和青豆一起下，保留脆度。"
   }
 ];
